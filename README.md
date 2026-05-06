@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square&logo=vercel&logoColor=white)
 ![](https://img.shields.io/badge/License-MIT-6366f1?style=flat-square)
 
-[Live Demo](https://your-demo-link.vercel.app) · [Report Bug](https://github.com/Arpithaapoojary/url-shortener/issues) · [Request Feature](https://github.com/Arpithaapoojary/url-shortener/issues)
+[Live Demo](https://urlshortener-blond-xi.vercel.app/) · [Report Bug](https://github.com/Arpithaapoojary/url-shortener/issues) · [Request Feature](https://github.com/Arpithaapoojary/url-shortener/issues)
 
 </div>
 
