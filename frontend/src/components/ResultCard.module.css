@@ -1,0 +1,9 @@
+.bar { background: #0a1a14; border: 1px solid rgba(16,185,129,0.2); border-radius: var(--radius-lg); padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.left { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+.url { font-family: var(--mono); font-size: 13px; color: #d1fae5; font-weight: 500; margin-bottom: 2px; }
+.orig { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.btns { display: flex; gap: 6px; flex-shrink: 0; }
+.btn { background: rgba(255,255,255,0.04); color: var(--text-soft); border: 1px solid var(--border); border-radius: 6px; padding: 6px 11px; font-size: 11px; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 5px; text-decoration: none; font-family: var(--font); transition: all 0.15s; white-space: nowrap; }
+.btn:hover { border-color: var(--border-hover); color: var(--text); }
+.btn.copied { color: var(--green-light); border-color: rgba(16,185,129,0.3); }

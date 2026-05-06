@@ -1,0 +1,20 @@
+.wrap { display: flex; flex-direction: column; gap: 8px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.2s; }
+.card:focus-within { border-color: rgba(99,102,241,0.35); box-shadow: 0 0 0 3px var(--accent-glow); }
+.row { display: flex; align-items: center; padding: 5px 5px 5px 14px; gap: 10px; }
+.icon { color: var(--text-muted); flex-shrink: 0; }
+.input { flex: 1; background: none; border: none; outline: none; color: var(--text); font-family: var(--font); font-size: 14px; padding: 9px 0; }
+.input::placeholder { color: var(--text-muted); }
+.btn { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 9px 16px; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: background 0.15s; white-space: nowrap; flex-shrink: 0; font-family: var(--font); }
+.btn:hover:not(:disabled) { background: #5254cc; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.spinner { width: 13px; height: 13px; border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff; border-radius: 50%; animation: spin 0.6s linear infinite; display: block; }
+.slugRow { display: flex; align-items: center; border-top: 1px solid var(--border); padding: 8px 14px; gap: 0; animation: fadeUp 0.2s ease forwards; }
+.slugBase { font-family: var(--mono); font-size: 11px; color: var(--text-muted); background: var(--surface2); padding: 5px 8px; border-radius: 4px 0 0 4px; border: 1px solid var(--border); border-right: none; white-space: nowrap; }
+.slugInput { flex: 1; background: var(--surface2); border: 1px solid var(--border); border-radius: 0 4px 4px 0; padding: 5px 8px; font-family: var(--mono); font-size: 11px; color: var(--text); outline: none; transition: border-color 0.15s; }
+.slugInput:focus { border-color: var(--accent); }
+.slugInput::placeholder { color: var(--text-muted); }
+.footer { display: flex; align-items: center; justify-content: space-between; padding: 0 2px; }
+.toggle { background: none; border: none; color: var(--text-muted); font-size: 11px; cursor: pointer; font-family: var(--font); text-decoration: underline; text-decoration-color: var(--border); transition: color 0.15s; }
+.toggle:hover { color: var(--accent-light); }
+.error { color: #f87171; font-size: 11px; }
